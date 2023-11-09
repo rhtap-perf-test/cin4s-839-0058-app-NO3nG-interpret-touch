@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-vpbh
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoup_perfscale/cin4s-839-0058-tenant/cin4s-839-0058-app/devfile-sample-vpbh@sha256:93ad330dab17aa8cbd7853aa8f7ebb81750026de8cacbf090f1ddc15a5359cab
+        name: my-nodejs
+        resources: {}
+status: {}
